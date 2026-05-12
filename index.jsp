@@ -87,7 +87,9 @@ br {
 <br /><br />
 <div align="center"><span class="style20"><span class="style15"><strong>Note: </strong></span>This Tool is a patented product. All rights are reserved. </span></div>
 <br />
-<div align="center"><span class="style20"> RAJI REDDY MYAKALA      DR. S. SHANKAR </span></div>
+<div align="center"><span class="style20"> RAJI REDDY MYAKALA </span></div>
+<br />
+<div align="center"><span class="style20"> DR. S. SHANKAR </span></div>
 <br />
 <div align="center"><span class="style20"><span class="style15"><strong>Consent Statement: </strong></span>By clicking <strong>Start</strong>,  you confirm that you have read and understood the purpose of this survey, and  you agree to participate voluntarily. </span></div>
 <br /><br />
