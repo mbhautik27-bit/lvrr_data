@@ -68,12 +68,6 @@ float social_sum[] = new float[7];
 float social_sum_per[] = new float[7];
 
 
-<p><strong>Country:</strong> <%= request.getParameter("country") %></p>
-<p><strong>State:</strong> <%= request.getParameter("state") %></p>
-<p><strong>District:</strong> <%= request.getParameter("district") %></p>
-<p><strong>Road name:</strong> <%= request.getParameter("roadname") %></p>
-
-
 int jj = 0;
 //Economic
 for (int i = 1; i <= 12; i++)
@@ -1320,6 +1314,23 @@ chart_dynamic_social_per.render();
         <tr>
           <td><div align="center"><a href="index.jsp" class="style22">home</a></div></td>
         </tr>
+
+		<table width="80%" border="1" align="center" cellpadding="5" cellspacing="0">
+		<tr>
+    		<td><strong>Country:</strong></td>
+    		<td><%= request.getParameter("country") %></td>
+    		<td><strong>State:</strong></td>
+    		<td><%= request.getParameter("state") %></td>
+  		</tr>
+  		<tr>
+    		<td><strong>District:</strong></td>
+    		<td><%= request.getParameter("district") %></td>
+    		<td><strong>Road name:</strong></td>
+    		<td><%= request.getParameter("roadname") %></td>
+  		</tr>
+		</table>
+
+<br/>
       </table>
 	  
 	  <table width="90%" border="0" align="center">
