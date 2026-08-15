@@ -40,10 +40,6 @@ background-color:#CCCC66;
 
 <body>
 
-<div align="center" style="font-size:40px;color:red;">
-THIS PAGE WAS EDITED
-</div>
-
 <table width="100%" height="2%" border="0" align="center" cellpadding="0" cellspacing="0">
 <caption class="style11 style14">
 <span class="style2" ><img src="images/logo1.png" alt="NITW" width="193" height="157" align="left" /><span class="style15" >NITW Sustainability Rating Tool for Low-Volume Rural Roads Maintenance</span></span>
