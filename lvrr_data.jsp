@@ -40,6 +40,30 @@ background-color:#CCCC66;
 
 <body>
 
+JLabel countryLabel = new JLabel("Country: ");
+JTextField countryField = new JTextField(20);
+
+JLabel stateLabel = new JLabel("State: ");
+JTextField stateField = new JTextField(20);
+
+JLabel districtLabel = new JLabel("District: ");
+JTextField districtField = new JTextField(20);
+
+JLabel roadnameLabel = new JLabel("Road name: ");
+JTextField roadnameField = new JTextField(20);
+
+add(countryLabel);
+add(countryField);
+
+add(stateLabel);
+add(stateField);
+
+add(districtLabel);
+add(districtField);
+
+add(roadnameLabel);
+add(roadnameField);
+
 <table width="100%" height="2%" border="0" align="center" cellpadding="0" cellspacing="0">
 <caption class="style11 style14">
 <span class="style2" ><img src="images/logo1.png" alt="NITW" width="193" height="157" align="left" /><span class="style15" >NITW Sustainability Rating Tool for Low-Volume Rural Roads Maintenance</span></span>
@@ -70,7 +94,7 @@ background-color:#CCCC66;
     </tr>
     <tr>
       <td class="style19"><div align="center">2</div></td>
-      <td class="style19">Does supply match the project’s demand schedule?</td>
+      <td class="style19">Does supply match the projectâ€™s demand schedule?</td>
       <td><input name="economic2" type="radio" value="1" />
 Yes
   <input name="economic2" type="radio" value="0" checked="checked" />
@@ -323,7 +347,7 @@ No</td>
 	<tr>
       <td width="4%" class="style19"><div align="center">1</div></td>
       <td width="76%" class="style19">To what extent are construction safety protocols implemented?</td>
-      <td width="20%"><input name="safety_c1" type="text" id="safety_c1" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td width="20%"><input name="safety_c1" type="text" id="safety_c1" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
     </tr>
 	
 	<tr>
@@ -332,7 +356,7 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">2</div></td>
       <td class="style19">How effectively is glare from road surfaces and lighting controlled?</td>
-      <td><input name="safety_c2" type="text" id="safety_c2" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td><input name="safety_c2" type="text" id="safety_c2" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
     </tr>
 
 	<tr>
@@ -341,7 +365,7 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">3</div></td>
       <td class="style19">How adequate are the traffic control measures during maintenance works?</td>
-      <td><input name="safety_c3" type="text" id="safety_c3" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td><input name="safety_c3" type="text" id="safety_c3" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
     </tr>
 	
 	<tr>
@@ -350,7 +374,7 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">4</div></td>
       <td class="style19">How visible and durable are the traffic markings on the road?</td>
-      <td><input name="safety_c4" type="text" id="safety_c4" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td><input name="safety_c4" type="text" id="safety_c4" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
     </tr>
 
   </table>
@@ -368,12 +392,12 @@ No</td>
 	<tr>
       <td width="4%" class="style19"><div align="center">1</div></td>
       <td width="76%" class="style19">Does your project have a documented and approved budget plan for maintenance activities?</td>
-      <td width="20%"><input name="mgmt_c1" type="text" id="mgmt_c1" value="0" size="4" maxlength="4" /> Response Scale (1–5)</td>
+      <td width="20%"><input name="mgmt_c1" type="text" id="mgmt_c1" value="0" size="4" maxlength="4" /> Response Scale (1â€“5)</td>
     </tr>
 	<tr>
       <td width="4%" class="style19"><div align="center">2</div></td>
       <td width="76%" class="style19">Is the budget allocation adequate to meet annual maintenance needs without backlog?</td>
-      <td width="20%"><input name="mgmt_c2" type="text" id="mgmt_c2" value="0" size="4" maxlength="4" /> Response Scale (1–5)</td>
+      <td width="20%"><input name="mgmt_c2" type="text" id="mgmt_c2" value="0" size="4" maxlength="4" /> Response Scale (1â€“5)</td>
     </tr>
 	
 	<tr>
@@ -382,12 +406,12 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">3</div></td>
       <td class="style19">Is there a written preventive maintenance schedule covering all low-volume rural roads?</td>
-      <td><input name="mgmt_c3" type="text" id="mgmt_c3" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c3" type="text" id="mgmt_c3" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 	<tr>
       <td class="style19"><div align="center">4</div></td>
       <td class="style19">How often is the schedule reviewed and updated?</td>
-      <td><input name="mgmt_c4" type="text" id="mgmt_c4" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c4" type="text" id="mgmt_c4" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 
 	<tr>
@@ -396,12 +420,12 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">5</div></td>
       <td class="style19">Are quality control checks performed during all maintenance works?</td>
-      <td><input name="mgmt_c5" type="text" id="mgmt_c5" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c5" type="text" id="mgmt_c5" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 	<tr>
       <td class="style19"><div align="center">6</div></td>
       <td class="style19">Is there a documented QA/QC process followed during construction and maintenance?</td>
-      <td><input name="mgmt_c6" type="text" id="mgmt_c6" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c6" type="text" id="mgmt_c6" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 	<tr>
       <td colspan="3" class="style14"><div align="center">Workzone Management</div></td>
@@ -409,12 +433,12 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">7</div></td>
       <td class="style19">Are work zones set up with proper signage, barricades, and safety protocols?</td>
-      <td><input name="mgmt_c7" type="text" id="mgmt_c7" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c7" type="text" id="mgmt_c7" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 	<tr>
       <td class="style19"><div align="center">8</div></td>
       <td class="style19">Are workers provided with adequate PPE and safety training?</td>
-      <td><input name="mgmt_c8" type="text" id="mgmt_c8" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c8" type="text" id="mgmt_c8" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 	<tr>
       <td colspan="3" class="style14"><div align="center">Project Team</div></td>
@@ -422,7 +446,7 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">9</div></td>
       <td class="style19">Does the maintenance team include trained engineers and supervisors?</td>
-      <td><input name="mgmt_c9" type="text" id="mgmt_c9" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c9" type="text" id="mgmt_c9" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 	
 	<tr>
@@ -431,12 +455,12 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">10</div></td>
       <td class="style19">Are historical maintenance records maintained and updated regularly?</td>
-      <td><input name="mgmt_c10" type="text" id="mgmt_c10" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c10" type="text" id="mgmt_c10" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 	<tr>
       <td class="style19"><div align="center">11</div></td>
       <td class="style19">Are inspection results documented for future planning?</td>
-      <td><input name="mgmt_c11" type="text" id="mgmt_c11" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c11" type="text" id="mgmt_c11" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 	
 	<tr>
@@ -445,12 +469,12 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">12</div></td>
       <td class="style19">Is there regular coordination with local authorities regarding maintenance activities?</td>
-      <td><input name="mgmt_c12" type="text" id="mgmt_c12" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c12" type="text" id="mgmt_c12" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 	<tr>
       <td class="style19"><div align="center">13</div></td>
       <td class="style19">Is community feedback incorporated into project planning?</td>
-      <td><input name="mgmt_c13" type="text" id="mgmt_c13" value="0" size="4" maxlength="4" /> Response Scale  (1–5)</td>
+      <td><input name="mgmt_c13" type="text" id="mgmt_c13" value="0" size="4" maxlength="4" /> Response Scale  (1â€“5)</td>
     </tr>
 
 </table>
@@ -467,7 +491,7 @@ No</td>
 	<tr>
       <td width="4%" class="style19"><div align="center">1</div></td>
       <td width="76%" class="style19">Is there a dedicated sustainability representative in the project team ensuring integration of sustainable practices across all stages of maintenance?</td>
-      <td width="20%"><input name="innovation_1" type="text" id="innovation_1" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td width="20%"><input name="innovation_1" type="text" id="innovation_1" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
     </tr>
 	
 	<tr>
@@ -476,7 +500,7 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">2</div></td>
       <td class="style19">Have innovative or creative ideas in maintenance, materials, or processes been introduced and implemented to improve sustainability outcomes?</td>
-      <td><input name="innovation_2" type="text" id="innovation_2" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td><input name="innovation_2" type="text" id="innovation_2" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
     </tr>
 
 	<tr>
@@ -485,7 +509,7 @@ No</td>
 	<tr>
       <td class="style19"><div align="center">3</div></td>
       <td class="style19">Has the rural road maintenance project obtained certification under an  approved sustainability rating system (PMGSY guidelines necessitate using green  technologies&mdash;such as cold mix, waste plastics, fly ash, and slag&mdash;in at least  15% of the annual construction and maintenance proposals.)?</td>
-      <td><input name="innovation_3" type="text" id="innovation_3" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td><input name="innovation_3" type="text" id="innovation_3" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
     </tr>
 
 </table>
@@ -879,14 +903,14 @@ No</td>
       <td width="76%"><span class="style19">Local communities are consulted before maintenance works begin
       </span><br />
       <span class="style17">(1. Strongly Agree; 2.  Agree; 3 Neutral; 4. Disagree; 5. Strongly Disagree)</span></td>
-      <td width="20%"><input name="social_c13" type="text" id="social_c13" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td width="20%"><input name="social_c13" type="text" id="social_c13" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
     </tr>
 	<tr>
 	  <td width="4%" class="style19"><div align="center">14</div></td>
       <td width="76%"><span class="style19">Rate the inclusiveness of decision-making in LVRR maintenance 
       </span><br />
       <span class="style17">(1 = Very Low, 2 = low, 3. medium, 4. High, 5 = Very High)</span></td>
-      <td width="20%"><input name="social_c14" type="text" id="social_c14" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td width="20%"><input name="social_c14" type="text" id="social_c14" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
 	  </tr>
 	
       <tr>
@@ -897,14 +921,14 @@ No</td>
       <td width="76%"><span class="style19">Timeliness of rural road maintenance interventions
       </span><br />
       <span class="style17">(1. Very timely; 2. Mostly timely; 3. Sometimes delayed; 4. Often delayed; and 5. No maintenance observed)</span></td>
-      <td width="20%"><input name="social_c15" type="text" id="social_c15" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td width="20%"><input name="social_c15" type="text" id="social_c15" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
     </tr>
 	<tr>
 	  <td width="4%" class="style19"><div align="center">16</div></td>
       <td width="76%"><span class="style19">Most needed improvement in public management of LVRR maintenance  
       </span><br />
       <span class="style17">(1. Stronger community monitoring; 2. Faster complaint resolution; 3. Better technical supervision 4. Digital transparency platforms; 5. Enhanced capacity building & training for local officials)</span></td>
-      <td width="20%"><input name="social_c16" type="text" id="social_c16" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td width="20%"><input name="social_c16" type="text" id="social_c16" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
 	  </tr>
 	  
 	  <tr>
@@ -915,14 +939,14 @@ No</td>
       <td width="76%"><span class="style19">Most important form of value addition in rural road maintenance 
       </span><br />
       <span class="style17">(1. Longer road life; 2. Reduced maintenance cost; 3. Better connectivity to markets & services; 4. Improved safety; 5. All of the above)</span></td>
-      <td width="20%"><input name="social_c17" type="text" id="social_c17" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td width="20%"><input name="social_c17" type="text" id="social_c17" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
     </tr>
 	<tr>
 	  <td width="4%" class="style19"><div align="center">18</div></td>
       <td width="76%"><span class="style19">Biggest barrier to achieving greater value addition  
       </span><br />
       <span class="style17">(1. Inadequate funding; 2. Poor quality materials; 3. Lack of technical expertise; 4.  Weak monitoring mechanisms; 5. Limited stakeholder participation in planning)</span></td>
-      <td width="20%"><input name="social_c18" type="text" id="social_c18" value="0" size="4" maxlength="4" /> Likert Scale (1–5)</td>
+      <td width="20%"><input name="social_c18" type="text" id="social_c18" value="0" size="4" maxlength="4" /> Likert Scale (1â€“5)</td>
 	  </tr>
 
   </table>
