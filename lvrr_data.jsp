@@ -40,26 +40,6 @@ background-color:#CCCC66;
 
 <body>
 
-<table width="80%" align="center">
-  <tr>
-    <td><strong>Country:</strong></td>
-    <td><input type="text" name="country" size="30"></td>
-  </tr>
-  <tr>
-    <td><strong>State:</strong></td>
-    <td><input type="text" name="state" size="30"></td>
-  </tr>
-  <tr>
-    <td><strong>District:</strong></td>
-    <td><input type="text" name="district" size="30"></td>
-  </tr>
-  <tr>
-    <td><strong>Road name:</strong></td>
-    <td><input type="text" name="roadname" size="30"></td>
-  </tr>
-</table>
-
-
 <table width="100%" height="2%" border="0" align="center" cellpadding="0" cellspacing="0">
 <caption class="style11 style14">
 <span class="style2" ><img src="images/logo1.png" alt="NITW" width="193" height="157" align="left" /><span class="style15" >NITW Sustainability Rating Tool for Low-Volume Rural Roads Maintenance</span></span>
@@ -72,6 +52,27 @@ background-color:#CCCC66;
   <div align="center"><span class="style13">Rating Tool for LVRRs </span><br />
     <br />
   </div>
+
+  <table width="80%" align="center" border="0" cellpadding="5" cellspacing="0">
+  <tr>
+    <td width="20%"><strong>Country:</strong></td>
+    <td><input type="text" name="country" size="30" /></td>
+  </tr>
+  <tr>
+    <td><strong>State:</strong></td>
+    <td><input type="text" name="state" size="30" /></td>
+  </tr>
+  <tr>
+    <td><strong>District:</strong></td>
+    <td><input type="text" name="district" size="30" /></td>
+  </tr>
+  <tr>
+    <td><strong>Road name:</strong></td>
+    <td><input type="text" name="roadname" size="30" /></td>
+  </tr>
+</table>
+
+<br/>
   <table width="80%" border="1" align="center" cellpadding="0" cellspacing="0" style="background-color: #B3EBFB">
   <caption style="#FFFFCC">
   <span class="style16">Economic</span>
