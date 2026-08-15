@@ -68,13 +68,10 @@ float social_sum[] = new float[7];
 float social_sum_per[] = new float[7];
 
 
-JPanel summaryPanel = new JPanel();
-summaryPanel.setLayout(new GridLayout(4, 1, 5, 5));
-
-summaryPanel.add(new JLabel("Country: " + countryField.getText()));
-summaryPanel.add(new JLabel("State: " + stateField.getText()));
-summaryPanel.add(new JLabel("District: " + districtField.getText()));
-summaryPanel.add(new JLabel("Road name: " + roadnameField.getText()));
+<p><strong>Country:</strong> <%= request.getParameter("country") %></p>
+<p><strong>State:</strong> <%= request.getParameter("state") %></p>
+<p><strong>District:</strong> <%= request.getParameter("district") %></p>
+<p><strong>Road name:</strong> <%= request.getParameter("roadname") %></p>
 
 
 int jj = 0;
