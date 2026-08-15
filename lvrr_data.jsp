@@ -40,29 +40,25 @@ background-color:#CCCC66;
 
 <body>
 
-JLabel countryLabel = new JLabel("Country: ");
-JTextField countryField = new JTextField(20);
+<table width="80%" align="center">
+  <tr>
+    <td><strong>Country:</strong></td>
+    <td><input type="text" name="country" size="30"></td>
+  </tr>
+  <tr>
+    <td><strong>State:</strong></td>
+    <td><input type="text" name="state" size="30"></td>
+  </tr>
+  <tr>
+    <td><strong>District:</strong></td>
+    <td><input type="text" name="district" size="30"></td>
+  </tr>
+  <tr>
+    <td><strong>Road name:</strong></td>
+    <td><input type="text" name="roadname" size="30"></td>
+  </tr>
+</table>
 
-JLabel stateLabel = new JLabel("State: ");
-JTextField stateField = new JTextField(20);
-
-JLabel districtLabel = new JLabel("District: ");
-JTextField districtField = new JTextField(20);
-
-JLabel roadnameLabel = new JLabel("Road name: ");
-JTextField roadnameField = new JTextField(20);
-
-add(countryLabel);
-add(countryField);
-
-add(stateLabel);
-add(stateField);
-
-add(districtLabel);
-add(districtField);
-
-add(roadnameLabel);
-add(roadnameField);
 
 <table width="100%" height="2%" border="0" align="center" cellpadding="0" cellspacing="0">
 <caption class="style11 style14">
